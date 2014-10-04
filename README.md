@@ -1,6 +1,6 @@
 ## Readme 
 
-This application has been created with MeanJS
+This application has been created with MeanJS.
 
 ## License
 (The MIT License)
