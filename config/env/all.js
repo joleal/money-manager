@@ -37,9 +37,14 @@ module.exports = {
 			'public/modules/*/*.js',
 			'public/modules/*/*[!tests]*/*.js'
 		],
-		tests: [
-			'public/lib/angular-mocks/angular-mocks.js',
-			'public/modules/*/tests/*.js'
-		]
+		tests: {
+			unit: [
+				'public/lib/angular-mocks/angular-mocks.js',
+				'tests/front/unit/*.js'
+			],
+			e2e: [
+				'tests/front/e2e/*.js'
+			]
+		}
 	}
 };
